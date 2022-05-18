@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.search-container {
+  margin-top: 60px;
+}
+
+.search-container .MuiButtonBase-root {
+  margin-top: 10px;
+}
+
+.list ul {
+  background-color: whitesmoke;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.list ul li {
+  margin: 10px 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.list ul li button {
+  margin-left: 10px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid green;
+}
+
+.react-responsive-modal-modal {
+  border-radius: 12px;
+}
+
+.react-responsive-modal-modal .modal-btn {
+  width: 60px;
+  background-color: transparent;
+  border: 1px solid green;
+  height: 25px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.react-responsive-modal-closeButton {
+  border-color: unset;
+  top: 1px;
+  left: 90%;
+  background-color: white;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.33);
+}
+.react-responsive-modal-closeButton svg {
+  background-color: white;
+  border: 1px solid darkgray;
+  border-radius: 100%;
+  width: 28px !important;
+  height: 28px !important;
+  margin-top: -1px;
+}
